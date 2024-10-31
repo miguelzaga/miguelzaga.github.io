@@ -1,6 +1,3 @@
-# My Porfolio
+# My Portfolio Website
 
-It is based on the one developed in the course Getting Started with CSS by 
-Jen Kramer.
-
-
+This is a website where I showcase my career as a developer. The design is based on the course [Getting Started With CSS](https://frontendmasters.com/courses/getting-started-css/) from Front End Masters. 
