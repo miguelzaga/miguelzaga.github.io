@@ -1,0 +1,45 @@
+@import url("./base.css");
+
+/* Intro */
+.intro {
+  padding: 4rem 1rem 10rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.intro__name {
+  font-family: var(--mono);
+}
+
+.intro__name span {
+  font-family: var(--sans);
+  font-size: 4rem;
+  color: var(--yellow);
+  display: block;
+}
+
+.intro__title {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+/* Contact */
+.contact__wrapper {
+  background-color: var(--dark-blue);
+}
+
+.contact {
+  text-align: center;
+  padding: 5rem 1rem;
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact__title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.contact__text {
+  margin: 2rem 0 3rem;
+}

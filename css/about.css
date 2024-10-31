@@ -1,0 +1,19 @@
+@import url("./base.css");
+
+.projects {
+  padding-top: 4rem;
+}
+
+.projects__title > span {
+  display: inline-block;
+}
+
+.project__title {
+  font-weight: normal;
+}
+
+@media (width < 560px) {
+  .gradient--hide-sm {
+    display: none;
+  }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Miguel Zapata</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Oxygen:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="./css/about.css">
+</head>
+
+<body>
+
+    <header>
+        <a class="nav__hamburger" href="#nav" aria-label="Open main menu">
+            <span class="sr-only">Open main menu</span>
+            <span class="fas fa-bars" aria-hidden="true"></span>
+        </a>
+
+        <nav id="nav" class="nav">
+
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <h1><a class="nav__link nav__link--name" href="index.html"><i class="fa-solid fa-glasses icon"
+                                aria-hidden="true"></i>Miguel Zapata</a></h1>
+                </li>
+                <li class="nav__item"><a class="nav__link" href=index.html#projects>Projects</a></li>
+                <li class="nav__item"><a class="nav__link" href="about.html">About</a></li>
+                <li class="nav__item"><a class="nav__link" href=index.html#contact>Contact</a></li>
+                <li class="nav__item"><a class="nav__link" href=#><i class="fa-brands fa-linkedin"
+                            aria-hidden="true"></i>
+                        <span class="sr-only">LinkedIn</span></a></li>
+                <li class="nav__item"><a class="nav__link" href=#><i class="fa-brands fa-square-github"></i><span
+                            class="sr-only">Github</span></a></li>
+                <li class="nav__item"><a class="nav__link button" href=#>Resume</a></li>
+            </ul>
+            <a class="nav__close" href="#" aria-label="Close main menu">
+                <span class="sr-only">Close main menu</span>
+                <span class="fas fa-times" aria-hidden="true"></span>
+            </a>
+        </nav>
+    </header>
+
+    <div class="gradient gradient--hide-sm"></div>
+    <section id="about" class="projects section">
+        <h2 class="projects__title">About <span>Miguel Zapata</span></h2>
+        <article class="project">
+            <div class="project__text">
+                <h3 class="project__title">Just the highlights</h3>
+                <p class="project__description">Description of the project. This should be fairly concise while also
+                    describing the key components that you developed or worked on. It can be as long as you need it to
+                    be but should at least be a few sentences long. Be sure to include specific links anywhere in the
+                    description. A link looks like <a
+                        href="https://frontendmasters.github.io/grid-flexbox-v2/">this</a>, and multiple links look <a
+                        href="#">like this</a> and <a href="#">like this</a>.</p>
+                <h4>Technologies used include:</h4>
+                <ul class="project__list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>SVG</li>
+                </ul>
+            </div>
+            <img class="project__img" src="https://assets.codepen.io/296057/fem-gettingstartedcss-ch5-1.png"
+                alt="Screenshot of the Wall of Wonder." />
+        </article>
+    </section>
+    <div class="gradient"></div>
+
+    <footer class="footer">
+        <h2 class="footer__title">
+            Miguel Zapata &middot; Web Developer
+        </h2>
+        <ul class="footer__list">
+            <li><a href=#><i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                    <span class="sr-only">LinkedIn</span></a></li>
+            <li><a href=#><i class="fa-brands fa-square-github"></i>
+                    <span class="sr-only">Github</span></a></li>
+            <li><a href=#><i class="fa-solid fa-envelope"></i>
+                    <span class="sr-only">Email</span></a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>

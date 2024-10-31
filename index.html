@@ -1,12 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miguel's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Oxygen:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet" href="./css/index.css">
 </head>
+
 <body>
-    <h1>miguelzaga's home page</h1>
-    <p>This is exciting!</p>
+  <header>
+    <a class="nav__hamburger" href="#nav" aria-label="Open main menu">
+      <span class="sr-only">Open main menu</span>
+      <span class="fas fa-bars" aria-hidden="true"></span>
+    </a>
+
+    <nav id="nav" class="nav">
+      <!-- TODO: update links with actual accounts -->
+
+      <ul class="nav__list">
+        <li class="nav__item">
+          <h1><a class="nav__link nav__link--name" href="index.html"><i class="fa-solid fa-glasses icon"
+                aria-hidden="true"></i>Miguel Zapata</a></h1>
+        </li>
+        <li class="nav__item"><a class="nav__link" href=index.html#projects>Projects</a></li>
+        <li class="nav__item"><a class="nav__link" href="about.html">About</a></li>
+        <li class="nav__item"><a class="nav__link" href=index.html#contact>Contact</a></li>
+        <li class="nav__item">
+          <a class="nav__link" href="https://www.linkedin.com/in/miguelzaga/">
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+            <span class="sr-only">LinkedIn</span>
+          </a>
+        </li>
+        <li class="nav__item"><a class="nav__link" href="https://github.com/miguelzaga">
+            <i class="fa-brands fa-square-github"></i>
+            <span class="sr-only">Github</span>
+          </a>
+        </li>
+        <li class="nav__item"><a class="nav__link button" href=#>Resume</a></li>
+      </ul>
+      <a class="nav__close" href="#" aria-label="Close main menu">
+        <span class="sr-only">Close main menu</span>
+        <span class="fas fa-times" aria-hidden="true"></span>
+      </a>
+    </nav>
+  </header>
+  <section id="intro" class="intro section">
+    <p class="intro__name">Hi, my name is <span>Miguel.</span></p>
+
+    <h2 class="intro__title">Making the Web Beautiful.</h2>
+
+    <p>I’m a front-end developer building responsive solutions for modern web challenges.</p>
+
+    <p>Currently, I work in marketing at <a href="https://www.teleperformance.com/">Teleperformance</a>.</p>
+
+  </section>
+  <div class="gradient"></div>
+  <!--  TODO: Expand the projects section. Instead of presenting all the information on the home page, present an overview and a link to more extesive details and links as an additional page  -->
+  <section id="projects" class="projects section">
+    <h2 class="projects__title">Projects I'm proud of</h2>
+    <article class="project">
+      <div class="project__text">
+        <h4 class="project__subtitle">Latest Project</h4>
+        <h3 class="project__title">Wall of Wonder</h3>
+        <p class="project__description">Description of the project. This should be fairly concise while also describing
+          the key components that you developed or worked on. It can be as long as you need it to be but should at least
+          be a few sentences long. Be sure to include specific links anywhere in the description. A link looks like <a
+            href="https://frontendmasters.github.io/grid-flexbox-v2/">this</a>, and multiple links look <a href="#">like
+            this</a> and <a href="#">like this</a>.</p>
+        <h4>Technologies used include:</h4>
+        <ul class="project__list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>SVG</li>
+        </ul>
+      </div>
+      <img class="project__img" src="https://assets.codepen.io/296057/fem-gettingstartedcss-ch5-1.png"
+        alt="Screenshot of the Wall of Wonder." />
+    </article>
+    <article class="project project--reverse">
+      <div class="project__text">
+        <h4 class="project__subtitle">Bootcamp Project</h4>
+        <h3 class="project__title">Feed-A-Star-Mole Game</h3>
+        <p class="project__description">Description of the project. This should be fairly concise while also describing
+          the key components that you developed or worked on. It can be as long as you need it to be but should at least
+          be a few sentences long. Be sure to include specific links anywhere in the description. A link looks like <a
+            href="https://frontendmasters.github.io/grid-flexbox-v2/">this</a>, and multiple links look <a href="#">like
+            this</a> and <a href="#">like this</a>.</p>
+        <h4>Technologies used include:</h4>
+        <ul class="project__list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+      <img class="project__img" src="https://assets.codepen.io/296057/fem-gettingstartedcss-ch5-5.png"
+        alt="Screenshot of Feed-A-Star-Mole Game." />
+    </article>
+    <article class="project">
+      <div class="project__text">
+        <h4 class="project__subtitle">Photography Project</h4>
+        <h3 class="project__title">Wall of Wonder Collection</h3>
+        <p class="project__description">Description of the project. This should be fairly concise while also describing
+          the key components that you developed or worked on. It can be as long as you need it to be but should at least
+          be a few sentences long. Be sure to include specific links anywhere in the description. A link looks like <a
+            href="https://frontendmasters.github.io/grid-flexbox-v2/">this</a>, and multiple links look <a href="#">like
+            this</a> and <a href="#">like this</a>.</p>
+        <h4>Technologies used include:</h4>
+        <ul class="project__list">
+          <li>HTML</li>
+          <li>CSS Grid</li>
+        </ul>
+      </div>
+      <img class="project__img" src="https://assets.codepen.io/296057/fem-gettingstartedcss-ch5-4.png"
+        alt="Screenshot of the Wall of Wonder Collection." />
+    </article>
+  </section>
+  <div class="gradient"></div>
+  <div class="contact__wrapper">
+    <!--   TODO: change the email button for a form   -->
+    <section id="contact" class="contact section">
+      <h2 class="contact__title">Contact me</h2>
+
+      <p class="contact__text">I’m always excited to explore new front-end development roles, share insights on coding
+        best practices, or
+        brainstorm creative web solutions. Reach out anytime!</p>
+
+      <a class="button" href=#>Email me</a>
+
+    </section>
+  </div>
+  <div class="gradient"></div>
+  <footer class="footer">
+    <h2 class="footer__title">
+      Miguel Zapata &middot; Web Developer
+    </h2>
+    <ul class="footer__list">
+      <li><a href=#><i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+          <span class="sr-only">LinkedIn</span></a></li>
+      <li><a href=#><i class="fa-brands fa-square-github"></i>
+          <span class="sr-only">Github</span></a></li>
+      <li><a href=#><i class="fa-solid fa-envelope"></i>
+          <span class="sr-only">Email</span></a></li>
+    </ul>
+  </footer>
 </body>
+
 </html>
